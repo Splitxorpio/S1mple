@@ -3,7 +3,7 @@ include "db.php";
 
 if (isset($_POST['title'])) {
   $title = $_POST['title'];
-  $link = $_POST['link'];
+  $link = 'coursetemplate.php';
   $logo_link = $_POST['logo_link'];
   $insertQuery = "INSERT INTO Courses (title, link, logo_link) VALUES ('$title', '$link', '$logo_link')";
 
@@ -78,10 +78,10 @@ if ($result = $conn->query("SELECT * FROM Courses")) {
         <label for="exampleInputtext1">Title</label>
         <input type="text" class="form-control" id="exampleInputtext1" aria-describedby="textHelp" name="title">
 
-        <div class="form-group">
+        <!-- <div class="form-group">
           <label for="exampleInputtext2">Link</label>
           <input type="text" class="form-control" id="exampleInputtext2" aria-describedby="textHelp" name="link">
-        </div>
+        </div> -->
         <div class="form-group">
           <label for="exampleInputtext3">Logo Link</label>
           <input type="text" class="form-control" id="exampleInputtext3" aria-describedby="textHelp" name="logo_link">

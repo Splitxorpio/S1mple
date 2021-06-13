@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 include 'db.php';
 $username = $_POST['user'];
 $password = $_POST['pass'];
@@ -30,6 +30,10 @@ $row = mysqli_fetch_array($result);
 <body>
     <div class="container d50">
         <div class="form-holder">
+            <img class="pfp" src="https://avatars.dicebear.com/api/bottts/<?php echo $row['username'] ?>.svg" alt=""/>
+            <br>
+            <hr style="width: 300px"> 
+            <br>
             <span class="emoji">👋</span>
             <h1>
                 <?php

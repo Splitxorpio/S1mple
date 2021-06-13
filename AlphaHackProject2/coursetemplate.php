@@ -35,7 +35,7 @@
   <div class="container">
     <h1 class="python_title">Start Learning <?php echo $result['title'] ?> Now!</h1>
     <div class="course-container">
-    <?php echo $course; ?>
+      <p><?php echo $course; ?></p>
   </div>
     
     <!-- <div class="course-container">
