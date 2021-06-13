@@ -1,0 +1,155 @@
+@media screen and (max-width: 3500px) {
+    html{
+        height: 100%;
+    }
+    body {
+        background-color: lightblue;
+        overflow-x: hidden;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .python_title {
+        position: relative;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .course-container{
+        padding: 15px 50px 15px 50px;
+        background-color: white;
+        position: relative;
+        width: 1000px;
+        height: 100%;
+    }
+    .fas{
+        position: relative;
+        top: 1.5em;
+        left: 20%;
+        color: black;
+    }
+    #editor {
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 50px;
+
+    }
+    .js_screenshot{
+        height: 40px;
+    }
+    .function_pic{
+        height: 150px;
+    }
+
+    .web_screenshot{
+        height: 40px;
+    }
+}   
+
+@media screen and (max-width: 1600px) {
+    .fas{
+        position: relative;
+        top: 1.5em;
+        left: 10%;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .python_title {
+        position: relative;
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    .course-container{
+        padding: 15px 50px 15px 50px;
+        background-color: white;
+        position: relative;
+        width: 800px;
+        height: 100%;
+    }
+    .fas{
+        position: relative;
+        top: 1.5em;
+        left: 15%;
+        color: black;
+    }
+    .python_op_pic{
+        height: 400px;
+    }
+    .python_loop_pic {
+        height: 340px;
+    }
+    
+}
+
+@media screen and (max-width: 880px) {
+    
+    .fas {
+        position: relative;
+        top: 1.5em;
+        left: 5%;
+        color: black;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+    body {
+        overflow-x: scroll;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .python_title {
+        position: relative;
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    .course-container{
+        padding: 15px 50px 15px 50px;
+        background-color: white;
+        position: relative;
+        width: 700px;
+        height: 100%;
+    }
+    .fas{
+        position: relative;
+        top: 1.5em;
+        left: 15%;
+        color: black;
+    }
+    .python_op_pic{
+        height: 400px;
+    }
+    .python_loop_pic {
+        height: 280px;
+    }
+    .python_if_pic {
+        left: 100px;
+    }
+    .py_world_pic {
+        height: 50px;
+        left: 10px;
+    }
+    
+}
